@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component  } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'onlineEditor';
+    toggle:boolean;
+    title:string;
+      constructor()
+      {
+         this.toggle = false;
+        this.title = 'Online Editor';
+      }
+
+      toggleme(e){
+        console.log(e);
+  
+      }
 }
+
