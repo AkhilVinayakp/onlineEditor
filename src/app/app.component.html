@@ -1,7 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div id="wrapper">
+<div class="notoggle" [ngClass]='toggling_wrapper'>
 
-    <div id="sidebar-wrapper">
+    <div class="sidebar_notoggle" [ngClass]='toggling_sidebar'>
         <div class="sidebar-brand">
            <a href="#">NIRVANA</a> 
         </div>
@@ -17,12 +17,12 @@
     </div>
 
 
-    <div id="page-content-wrapper">
+    <div class="page_notoggle" [ngClass]='toggling_page'>
         <div class="container-fluid main_body">
            <div class="row">
 	            <div class="col-lg-12">
                     <button (click)="toggleme($event)" class="btn btn-light mb-2">MENU</button>
-                    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                   <!---->
                     <!--the following are put in component-->
                     <app-welcome></app-welcome>
 				</div>
@@ -32,9 +32,4 @@
     </div>
 
 </div>
-<script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-</script>
+

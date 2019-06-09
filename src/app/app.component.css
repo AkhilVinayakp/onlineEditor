@@ -5,11 +5,43 @@
     margin-right:32px;
     padding: 20px 20px;
 }
-#notoggle
-{
+.notoggle{
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+.ttoggle
+{
+    padding-left: 250px;
+}
+.sidebar_notoggle{
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #333333;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.sidebar_ttoggle
+{
+    width: 250px;
+}
+.page_notoggle
+{
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+.page_ttoggle
+{
+    position: absolute;
+    margin-right: -250px;
 }
