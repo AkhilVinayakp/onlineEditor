@@ -5,3 +5,11 @@
     margin-right:32px;
     padding: 20px 20px;
 }
+#notoggle
+{
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
