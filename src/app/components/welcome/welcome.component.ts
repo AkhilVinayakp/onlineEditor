@@ -9,4 +9,14 @@ import { Component } from "@angular/core";
 export class WelcomeComponent
 {
     title = 'dashbord';
+    user:u1={}
+    constructor()
+    {
+        this.user.name="fsasa";
+    }
+}
+interface u1{
+    name?:string
+    age?:number
+
 }
