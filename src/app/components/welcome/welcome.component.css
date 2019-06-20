@@ -1,0 +1,13 @@
+.welcome_intro
+{
+    margin:25px 25px;
+    border : 2px solid snow;
+    background-color: black;
+    width:67vh;
+    height:10vh;
+    
+}
+.container
+{
+    background: rebeccapurple
+}

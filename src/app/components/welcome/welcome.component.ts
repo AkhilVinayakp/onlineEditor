@@ -12,7 +12,7 @@ export class WelcomeComponent
     user:u1={}
     constructor()
     {
-        this.user.name="fsasa";
+        this.user.name="Raju BAI";
     }
 }
 interface u1{
